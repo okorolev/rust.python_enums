@@ -1,0 +1,8 @@
+/target
+**/*.rs.bk
+Cargo.lock
+.idea/
+__pycache__/
+build/
+dist/
+string_sum.egg-info/

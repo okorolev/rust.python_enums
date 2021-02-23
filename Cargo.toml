@@ -1,0 +1,16 @@
+[package]
+name = "string-sum"
+version = "0.1.0"
+edition = "2018"
+
+[lib]
+name = "string_sum"
+crate-type = ["cdylib"]
+
+
+[dependencies]
+#pyo3 = { git = "https://github.com/PyO3/pyo3.git", rev = "f9baa700d873cf04b70429b5d847275fad693e8d", features = ["extension-module", "python3"]}
+#pyo3 = { git = "https://github.com/PyO3/pyo3.git", rev = "9e53418aadfd9d4f443fbf3c0b7e2d3823f7b260", features = ["extension-module", "python3"]}
+#pyo3 = { version = "0.6.0-alpha.2", features = ["extension-module", "python3"]}
+#pyo3 = { version = "0.6.0-alpha.4", features = ["extension-module", "python3"]}
+pyo3 = { version = "0.7.0-alpha.1", features = ["extension-module", "python3"]}
